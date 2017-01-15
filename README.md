@@ -2,8 +2,24 @@
 
 ## Exercise 01
 ##### Setup Scala(2.11.7) (Run “scala -version” to verify).
-
+Just download <i><b>scala.deb</b></i> and install it:
+<pre>
+sudo apt-get remove scala-library scala
+wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
+sudo dpkg -i scala-2.11.6.deb
+sudo apt-get update
+sudo apt-get install scala
+</pre>
 ##### Setup sbt(0.13.9) (Run “sbt sbt-version” to verify).
+###### The simplest way of installing SBT on ubuntu is the deb package provided by Typesafe.
+    Run the following shell commands:
+<pre>
+wget http://apt.typesafe.com/repo-deb-build-0002.deb
+sudo dpkg -i repo-deb-build-0002.deb
+sudo apt-get update
+sudo apt-get install sbt
+</pre>
+
 ##### Setup intellij IDE with scala mode.
 ##### Get Hello World project working with Scala + Intellij.
 ##### Go through Chapters 01-09 (and do the examples) from programming scala book.(Go
