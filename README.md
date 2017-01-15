@@ -1,12 +1,13 @@
 # Scala_Assignment_Mukul-Dev
 
 ## Exercise 01
-###### Setup Scala(2.11.7) (Run “scala -version” to verify).
-###### Setup sbt(0.13.9) (Run “sbt sbt-version” to verify).
-###### Setup intellij IDE with scala mode.
-###### Get Hello World project working with Scala + Intellij.
-###### Go through Chapters 01-09 (and do the examples) from programming scala book.(Go
-###### through this as well: http://twitter.github.io/scala_school/) 
+##### Setup Scala(2.11.7) (Run “scala -version” to verify).
+
+##### Setup sbt(0.13.9) (Run “sbt sbt-version” to verify).
+##### Setup intellij IDE with scala mode.
+##### Get Hello World project working with Scala + Intellij.
+##### Go through Chapters 01-09 (and do the examples) from programming scala book.(Go
+##### through this as well: http://twitter.github.io/scala_school/) 
 
 ## Quiz 02
 ###### Why is Scala a functional programming language?
