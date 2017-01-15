@@ -77,12 +77,12 @@ Scala permits you to code in functional style, and makes your life easier (than 
 ###### How would you run SBT tasks from within IntelliJ?
 
 ## Exercise 04
-##### Convert the InnoString class from Exercise 02 in to a SBT project:
-###### Create a new SBT project from the command line
-###### Write your build.sbt file
-###### Copy the code for InnoString class but put it in a package called "com.innovaccer":
-###### Compile and run this from SBT in the command-line
-###### In IntelliJ, import the SBT project created above and run it using SBT
+#### Convert the InnoString class from Exercise 02 in to a SBT project:
+    - Create a new SBT project from the command line
+    - Write your build.sbt file
+    - Copy the code for InnoString class but put it in a package called "com.innovaccer":
+    - Compile and run this from SBT in the command-line
+    - In IntelliJ, import the SBT project created above and run it using SBT
 
 ## Quiz 05
 ###### How does Scala implement Array and Map collections?
