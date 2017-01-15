@@ -60,14 +60,14 @@ Scala permits you to code in functional style, and makes your life easier (than 
 ###### What is the purpose of apply and unapply methods in companion objects? 
 
 ## Exercise 03
-##### Write a class called "InnoString" that does the following:
-###### A private string variable
-###### A constructor that accepts a String value as input and sets it to the private variable
-###### An overridden toString() method that returns the string
-###### A concat method that concatenates a String to the private string variable
-###### An overloaded '+' operator that has the same functionality as the concat method
-###### An overloaded '==' operator that compares two InnoString objects for equivalence
-###### An isPalindrome method that returns true if the private string variable is a palindrome
+#### Write a class called "InnoString" that does the following:
+    - A private string variable
+    - A constructor that accepts a String value as input and sets it to the private variable
+    - An overridden toString() method that returns the string
+    - A concat method that concatenates a String to the private string variable
+    - An overloaded '+' operator that has the same functionality as the concat method
+    - An overloaded '==' operator that compares two InnoString objects for equivalence
+    - An isPalindrome method that returns true if the private string variable is a palindrome
 
 ## Quiz 04
 ###### What is SBT? How to create a brand new project in SBT from the CLI?
@@ -83,6 +83,7 @@ Scala permits you to code in functional style, and makes your life easier (than 
 ###### Copy the code for InnoString class but put it in a package called "com.innovaccer":
 ###### Compile and run this from SBT in the command-line
 ###### In IntelliJ, import the SBT project created above and run it using SBT
+
 ## Quiz 05
 ###### How does Scala implement Array and Map collections?
 ###### How would you open a file in Scala and read the contents?
