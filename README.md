@@ -91,23 +91,23 @@ Scala permits you to code in functional style, and makes your life easier (than 
 ###### What are traits? What is the Runnable trait? How would you use it? - How does Scala implement multi-threading with executors & thread pools?
 
 ## Exercise 05
-##### Implement a multi-threaded Chat Server:
-###### Create a brand new SBT project in IntelliJ
-###### Add dependency (http://lihaoyi.github.io/upickle-pprint/pprint/) 
-###### Create a Resource file called 'settings.txt' with these settings:
- host=127.0.0.1
- port=4000
- - Create a "com.innovaccer" package
- - Create a Chat Server class in the com.innovaccer package:
- - This should be multi-threaded
- - This should use a thread pool with ten threads
- - All chat messages must be printed on the server
- - All chat messages must be echoed on the originating client
- - All chat messages should be broadcast to all connected clients
- - This should use the thread name as the display handle for the client
- - Create a Main Object that:
- - Reads the settings.txt file
- - Creates a Map of the settings defined in the settings.txt file
- - Pretty print the Map using the Pretty Printer Dependency Class
- - Instantiates the chat server with the host and port in settings
- - Run a while (true) loop waiting for incoming chat client connections 
+#### Implement a multi-threaded Chat Server:
+    - Create a brand new SBT project in IntelliJ
+    - Add dependency (http://lihaoyi.github.io/upickle-pprint/pprint/) 
+    - Create a Resource file called 'settings.txt' with these settings:
+    - host=127.0.0.1
+    - port=4000
+    - Create a "com.innovaccer" package
+    - Create a Chat Server class in the com.innovaccer package:
+    - This should be multi-threaded
+    - This should use a thread pool with ten threads
+    - All chat messages must be printed on the server
+    - All chat messages must be echoed on the originating client
+    - All chat messages should be broadcast to all connected clients
+    - This should use the thread name as the display handle for the client
+    - Create a Main Object that:
+    - Reads the settings.txt file
+    - Creates a Map of the settings defined in the settings.txt file
+    - Pretty print the Map using the Pretty Printer Dependency Class
+    - Instantiates the chat server with the host and port in settings
+    - Run a while (true) loop waiting for incoming chat client connections 
