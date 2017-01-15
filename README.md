@@ -28,6 +28,12 @@ https://github.com/devmukul44/scala_assignment/blob/master/Installation_IntelliJ
 
 ## Quiz 02
 ###### Why is Scala a functional programming language?
+    Scala provides a large number of capabilities that are found only in functional programming languages. Scala permits you to code in functional style, and makes your life easier (than in Java) in a number of ways:
+
+    There are first-class functions
+    There is an immutable collections library
+    Tail recursion is supported (to the extent that the JVM can manage)
+    Pattern matching is supported Scala is a perfect choice if you want to explore the world of functional programming without completely disregarding object oriented programming.
 ###### What is the difference between val and var?
 ###### What is an "Object" in Scala?
 ###### What is an Application in Scala and how to define one?
