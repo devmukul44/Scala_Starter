@@ -16,14 +16,10 @@
 ###### What is the Unit return type? 
 
 ## Exercise 02
-Build an Object called "Factorial" and write a method in it to compute the factorial of any
-integer from 1 until 100 (Note: the method must compute the factorial iteratively)
-###### The program must be invoked from the command-line with the integer as a command-line
-parameter
-###### The program must print a message and exit with a status of 1 when a command-line
-parameter is missing
-###### The class must raise an "FactorialInputOutOfRange" Exception when the input is < 1 or >
-100
+##### Build an Object called "Factorial" and write a method in it to compute the factorial of any integer from 1 until 100 (Note: the method must compute the factorial iteratively)
+###### The program must be invoked from the command-line with the integer as a command-line parameter
+###### The program must print a message and exit with a status of 1 when a command-line parameter is missing
+###### The class must raise an "FactorialInputOutOfRange" Exception when the input is < 1 or > 100
 ###### Print the output using string interpolation
 ###### BONUS: Create a recursive version of the factorial method
  
@@ -35,7 +31,7 @@ parameter is missing
 ###### What is the purpose of apply and unapply methods in companion objects? 
 
 ## Exercise 03
-Write a class called "InnoString" that does the following:
+##### Write a class called "InnoString" that does the following:
 ###### A private string variable
 ###### A constructor that accepts a String value as input and sets it to the private variable
 ###### An overridden toString() method that returns the string
