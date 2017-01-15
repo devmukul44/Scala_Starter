@@ -1,7 +1,7 @@
 # Scala_Assignment_Mukul-Dev
 
 ## Exercise 01
-###### Setup Scala(2.11.7) (Run “scala -version” to verify).
+#### Setup Scala(2.11.7) (Run “scala -version” to verify).
 Just download <i><b>scala.deb</b></i> and install it:
 <pre>
 sudo apt-get remove scala-library scala
@@ -10,7 +10,7 @@ sudo dpkg -i scala-2.11.6.deb
 sudo apt-get update
 sudo apt-get install scala
 </pre>
-###### Setup sbt(0.13.9) (Run “sbt sbt-version” to verify).
+#### Setup sbt(0.13.9) (Run “sbt sbt-version” to verify).
     The simplest way of installing SBT on ubuntu is the deb package provided by Typesafe.
     Run the following shell commands:
 <pre>
@@ -20,11 +20,11 @@ sudo apt-get update
 sudo apt-get install sbt
 </pre>
 
-###### Setup intellij IDE with scala mode and Get Hello World project working with Scala + Intellij.
+#### Setup intellij IDE with scala mode and Get Hello World project working with Scala + Intellij.
 <pre>
 https://github.com/devmukul44/scala_assignment/blob/master/Installation_IntelliJ.pdf
 </pre>
-###### Go through Chapters 01-09 (and do the examples) from programming scala book.(Go through this as well: http://twitter.github.io/scala_school/ ) 
+#### Go through Chapters 01-09 (and do the examples) from programming scala book.(Go through this as well: http://twitter.github.io/scala_school/ ) 
 
 ## Quiz 02
 ###### Why is Scala a functional programming language?
@@ -34,12 +34,12 @@ https://github.com/devmukul44/scala_assignment/blob/master/Installation_IntelliJ
 ###### What is the Unit return type? 
 
 ## Exercise 02
-##### Build an Object called "Factorial" and write a method in it to compute the factorial of any integer from 1 until 100 (Note: the method must compute the factorial iteratively)
-###### The program must be invoked from the command-line with the integer as a command-line parameter
-###### The program must print a message and exit with a status of 1 when a command-line parameter is missing
-###### The class must raise an "FactorialInputOutOfRange" Exception when the input is < 1 or > 100
-###### Print the output using string interpolation
-###### BONUS: Create a recursive version of the factorial method
+#### Build an Object called "Factorial" and write a method in it to compute the factorial of any integer from 1 until 100 (Note: the method must compute the factorial iteratively)
+    - The program must be invoked from the command-line with the integer as a command-line parameter
+    - The program must print a message and exit with a status of 1 when a command-line parameter is missing
+    - The class must raise an "FactorialInputOutOfRange" Exception when the input is < 1 or > 100
+    - Print the output using string interpolation
+    - BONUS: Create a recursive version of the factorial method
  
 ## Quiz 03
 ###### How to define a Class, fields, constructor, and methods?
