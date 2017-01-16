@@ -51,6 +51,8 @@ Scala permits you to code in functional style, and makes your life easier (than 
     - The class must raise an "FactorialInputOutOfRange" Exception when the input is < 1 or > 100
     - Print the output using string interpolation
     - BONUS: Create a recursive version of the factorial method
+
+    https://github.com/devmukul44/scala_assignment/blob/master/ex2.scala
  
 ## Quiz 03
 ###### How to define a Class, fields, constructor, and methods?
@@ -69,6 +71,8 @@ Scala permits you to code in functional style, and makes your life easier (than 
     - An overloaded '==' operator that compares two InnoString objects for equivalence
     - An isPalindrome method that returns true if the private string variable is a palindrome
 
+    https://github.com/devmukul44/scala_assignment/blob/master/ex3.scala
+
 ## Quiz 04
 ###### What is SBT? How to create a brand new project in SBT from the CLI?
 ###### How to write your own basic build.sbt?
@@ -83,6 +87,8 @@ Scala permits you to code in functional style, and makes your life easier (than 
     - Copy the code for InnoString class but put it in a package called "com.innovaccer":
     - Compile and run this from SBT in the command-line
     - In IntelliJ, import the SBT project created above and run it using SBT
+
+    https://github.com/devmukul44/scala_assignment/blob/master/ex4.zip
 
 ## Quiz 05
 ###### How does Scala implement Array and Map collections?
@@ -111,3 +117,5 @@ Scala permits you to code in functional style, and makes your life easier (than 
     - Pretty print the Map using the Pretty Printer Dependency Class
     - Instantiates the chat server with the host and port in settings
     - Run a while (true) loop waiting for incoming chat client connections 
+    
+    https://github.com/devmukul44/scala_assignment/tree/master/ex5/
