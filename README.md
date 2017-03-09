@@ -123,3 +123,7 @@ https://github.com/devmukul44/scala_assignment/blob/master/ex4.zip
 <pre>    
 https://github.com/devmukul44/scala_assignment/tree/master/ex5/
 </pre>
+
+## Important Articles
+* Difference between methods and Functions in Scala
+<pre>https://tpolecat.github.io/2014/06/09/methods-functions.html</pre>
