@@ -132,4 +132,5 @@ https://github.com/devmukul44/scala_assignment/tree/master/ex5/
 <pre>http://docs.scala-lang.org/tutorials/tour/generic-classes</pre>
 * Higher Order Functions
 <pre>http://docs.scala-lang.org/tutorials/tour/higher-order-functions</pre>
-
+* User Defined Functions
+<pre>https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-sql-udfs.html</pre>
