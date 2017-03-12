@@ -1,4 +1,7 @@
-# Scala_Starter_Mukul_Dev
+# Scala_Starter
+
+* Scala Best Practices
+<pre>https://github.com/devmukul44/scala-best-practices</pre>
 
 ## Exercise 01
 #### Setup Scala(2.11.7) (Run “scala -version” to verify).
